@@ -14,7 +14,7 @@ type GitIO struct {
 
 func New() *GitIO {
 	return &GitIO{&base.Service{
-		Scheme: "http",
+		Scheme: "https",
 		Host:   "git.io",
 		Method: "POST",
 		Path:   "/create",
